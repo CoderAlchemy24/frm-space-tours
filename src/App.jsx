@@ -13,7 +13,7 @@ function App() {
   const [technologies, setTechnologies] = useState([])
 
   useEffect(() => {
-    fetch('data.json')
+    fetch('/data.json')
       .then((res) => res.json())
       .then((data) => {
         setDestinations(data?.destinations ?? [])

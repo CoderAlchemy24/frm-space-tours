@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/CoderAlchemy24/frm-space-tours](https://github.com/CoderAlchemy24/frm-space-tours)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
