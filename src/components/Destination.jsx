@@ -16,7 +16,7 @@ export default function Destinations({destinations}) {
   const { destIdx, setDestIdx } = useIdx();
 
   return (
-    <Suspense fallback={<div className="p-4 text-center">Loading...</div>}>
+    <Suspense fallback={<main className="p-4 text-center">Loading...</main>}>
       {isMobile ? (
         <MobileDestination destinations={destinations} idx={destIdx}/>
       ) : isTablet ? (

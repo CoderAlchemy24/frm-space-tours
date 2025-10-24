@@ -17,7 +17,7 @@
     const { crewIdx, setCrewIdx } = useIdx();
 
     return (
-      <Suspense fallback={<div className="p-4 text-center">Loading...</div>}>
+      <Suspense fallback={<main className="p-4 text-center">Loading...</main>}>
         {isMobile ? (
           <MobileCrew crews={crews} idx={crewIdx}/>
         ) : isTablet ? (
