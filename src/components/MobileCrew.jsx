@@ -13,7 +13,7 @@ export default function MobileCrew({crews}) {
   const crew = crews[crewIdx] || crews[0];
    
 
-  //const handleOpen = () => setIsOpen(true);
+  const handleOpen = () => setIsOpen(true);
   const handleClose = () => setIsOpen(false);
   const handleToggle = () => setIsOpen((v) => !v);
 
