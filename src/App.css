@@ -7,7 +7,11 @@
   --color-blue-300: #D6D1F9;
   --color-white: #FFFFFF;
 
-  --font-bellefair: 'Bellefair', serif;
+ 
+}
+
+@theme{
+   --font-bellefair: 'Bellefair', serif;
   --font-barlow-condensed: 'Barlow Condensed', sans-serif;
   --font-barlow: 'Barlow', sans-serif;
 
