@@ -1,6 +1,5 @@
 import NavigationBar from "./NavigationBar";
 import { useIdx } from '../IdxContext';
-import { Link } from 'react-router-dom'
 
 export default function DesktopTechnology({technologies}) {
 

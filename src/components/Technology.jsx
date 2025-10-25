@@ -8,7 +8,7 @@
     const TabletTechnology = React.lazy(() => import("./TabletTechnology"));
     const DesktopTechnology = React.lazy(() => import("./DesktopTechnology"));
     
-    export default function technologies({technologies}) {
+    export default function Technology({technologies}) {
       const isMobile = useMediaQuery("(max-width: 767px)");
       const isTablet = useMediaQuery("(min-width: 768px) and (max-width: 1023px)");
 
