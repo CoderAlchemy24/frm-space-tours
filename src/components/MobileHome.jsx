@@ -61,7 +61,7 @@ export default function MobileHome() {
                 because we’ll give you a truly out of this world experience!
             </p>
             </div>
-            <div className="rounded-full w-[144px] h-[144px] m-auto   bg-white text-blue-900 text-center font-bellefair font-normal text-[18px] uppercase flex items-center justify-center 
+            <button className="rounded-full w-[144px] h-[144px] m-auto   bg-white text-blue-900 text-center font-bellefair font-normal text-[18px] uppercase flex items-center justify-center 
             hover:opacity-80 cursor-pointer flex-shrink-0
            hover:ring-[80px] hover:ring-white/20" 
             onClick={handleExplore}
@@ -70,7 +70,7 @@ export default function MobileHome() {
               onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') handleExplore(); }}
             >
             Explore
-            </div>
+            </button>
         </main>
 
       <MobileMenuPanel isOpen={isOpen} onClose={handleClose} />
