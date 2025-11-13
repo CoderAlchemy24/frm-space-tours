@@ -13,7 +13,7 @@ export default function MobileTechnology({technologies}) {
   const tech = technologies[techIdx] || technologies[0];
    
 
-  const handleOpen = () => setIsOpen(true);
+
   const handleClose = () => setIsOpen(false);
   const handleToggle = () => setIsOpen((v) => !v);
 
@@ -61,12 +61,7 @@ export default function MobileTechnology({technologies}) {
                     className="w-[100vw] max-w-none h-auto object-cover"
                   />
                 </div>
-           {/*       
-              <div className="flex flex-row justify-center items-start px-10 py-2 mt-4 mb-0  gap-6 ">
-                    <div className="cursor-pointer bg-transparent rounded-full w-[40px] h-[40px] border-1 border-blue-300 hover:bg-white hover:border-blue-900 " onClick={() => setTechIdx(0)} ><p className="text-[16px] font-normal font-bellefair text-white hover:text-blue-900 px-4.5 py-2">1</p></div>
-                    <div className="cursor-pointer bg-transparent rounded-full w-[40px] h-[40px] border-1 border-blue-300 hover:bg-white hover:border-blue-900 " onClick={() => setTechIdx(1)} ><p className="text-[16px] font-normal font-bellefair text-white hover:text-blue-900 px-4 py-2">2</p></div>
-                    <div className="cursor-pointer bg-transparent rounded-full w-[40px] h-[40px] border-1 border-blue-300 hover:bg-white hover:border-blue-900 " onClick={() => setTechIdx(2)} ><p className="text-[16px] font-normal font-bellefair text-white hover:text-blue-900 px-4 py-2">3</p></div>
-              </div>      */}
+          
 
                  <div className="flex flex-row justify-center items-start px-10 py-2 mt-4 mb-0  gap-6 ">
                        {/* 1 */}

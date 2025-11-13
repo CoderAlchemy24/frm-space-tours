@@ -29,11 +29,7 @@ export default function DesktopTechnology({technologies}) {
         <div>   
         <div className="w-full flex flex-row text-white ml-0  pt-2 px-6 gap-18">
           
-           {/*  <div className="w-[140px] flex flex-col justify-start items-start px-0 py-18 gap-8 ">
-                  <div className="cursor-pointer bg-transparent rounded-full w-[80px] h-[80px] border-1 border-blue-300 hover:bg-white hover:border-blue-900 "  onClick={() => setTechIdx(0)} ><p className="text-[32px] font-normal font-bellefair text-white hover:text-blue-900 px-8 py-4.5">1</p></div>
-                  <div className="cursor-pointer bg-transparent rounded-full w-[80px] h-[80px] border-1 border-blue-300 hover:bg-white hover:border-blue-900 "  onClick={() => setTechIdx(1)} ><p className="text-[32px] font-normal font-bellefair text-white hover:text-blue-900 px-8 py-4.5">2</p></div>
-                  <div className="cursor-pointer bg-transparent rounded-full w-[80px] h-[80px] border-1 border-blue-300 hover:bg-white hover:border-blue-900 "  onClick={() => setTechIdx(2)} ><p className="text-[32px] font-normal font-bellefair text-white hover:text-blue-900 px-8 py-4.5">3</p></div>
-            </div>   */}   
+           
           <div className="w-[140px] flex flex-col justify-start items-start px-0 py-18 gap-8 ">
                  {/* 1 */}
                  <button

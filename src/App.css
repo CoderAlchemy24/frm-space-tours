@@ -7,15 +7,14 @@
   --color-blue-300: #D6D1F9;
   --color-white: #FFFFFF;
 
- 
-}
-
-@theme{
    --font-bellefair: 'Bellefair', serif;
   --font-barlow-condensed: 'Barlow Condensed', sans-serif;
   --font-barlow: 'Barlow', sans-serif;
 
+
+ 
 }
+
 
 .desktop-home-background {
   background-image: url('/assets/home/background-home-desktop.jpg');
