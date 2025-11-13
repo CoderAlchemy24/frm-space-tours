@@ -16,8 +16,8 @@
       if (!Array.isArray(crews) || crews.length === 0) return null;
     const { crewIdx, setCrewIdx } = useIdx();
 
-    return (
-      <Suspense fallback={<main className="p-4 text-center">Loading...</main>}>
+    return (<>
+      {/* <Suspense fallback={<main className="p-4 text-center">Loading...</main>}> */}
         {isMobile ? (
           <MobileCrew crews={crews} idx={crewIdx}/>
         ) : isTablet ? (
@@ -25,7 +25,8 @@
         ) : (
           <DesktopCrew crews={crews} idx={crewIdx}/>
         )}
-      </Suspense>
-    );
+    {/*   </Suspense> */}
+  </>  
+  );
   }
   

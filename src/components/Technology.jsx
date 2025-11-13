@@ -15,8 +15,8 @@
         if (!Array.isArray(technologies) || technologies.length === 0) return null;
       const { techIdx, setTechIdx } = useIdx();
   
-      return (
-        <Suspense fallback={<main className="p-4 text-center">Loading...</main>}>
+      return (<>
+        {/* <Suspense fallback={<main className="p-4 text-center">Loading...</main>}> */}
           {isMobile ? (
             <MobileTechnology technologies={technologies} idx={techIdx}/>
           ) : isTablet ? (
@@ -24,6 +24,7 @@
           ) : (
             <DesktopTechnology technologies={technologies} idx={techIdx}/>
           )}
-        </Suspense>
+        {/* </Suspense> */}
+      </>
       );
     }

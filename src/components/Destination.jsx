@@ -15,8 +15,8 @@ export default function Destinations({destinations}) {
     if (!Array.isArray(destinations) || destinations.length === 0) return null;
   const { destIdx, setDestIdx } = useIdx();
 
-  return (
-    <Suspense fallback={<main className="p-4 text-center">Loading...</main>}>
+  return (<>
+    {/* <Suspense fallback={<main className="p-4 text-center">Loading...</main>}> */}
       {isMobile ? (
         <MobileDestination destinations={destinations} idx={destIdx}/>
       ) : isTablet ? (
@@ -24,6 +24,7 @@ export default function Destinations({destinations}) {
       ) : (
         <DesktopDestination destinations={destinations} idx={destIdx}/>
       )}
-    </Suspense>
+   {/*  </Suspense> */}
+  </>
   );
 }
