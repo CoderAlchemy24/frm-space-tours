@@ -11,7 +11,7 @@ export default function Home() {
   const isTablet = useMediaQuery("(min-width: 768px) and (max-width: 1023px)");
 
   return (
-    <Suspense fallback={<main className="p-4 text-center">Loading...</main>}>
+    <Suspense fallback={<div id="loading" className="p-4 text-center">Loading...</div>}>
       {isMobile ? (
         <MobileHome />
       ) : isTablet ? (
